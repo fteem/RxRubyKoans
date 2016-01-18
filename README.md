@@ -25,16 +25,16 @@ Any response for Node with a version number greater than 0.10.x is fine.
 
 To install the RxRuby Koans, download via Git and add the depdencies via NPM:
 ```bash
-$ git clone https://github.com/Reactive-Extensions/RxRubyKoans.git
+$ git clone https://github.com/fteem/RxRubyKoans.git
 $ cd RxRubyKoans
 [RxRubyKoans ]$ npm install
 ```
 
 ## The Path to Enlightenment ##
 
-You can run the tests by calling `npm test` at your terminal window.
+You can run the tests by calling `rake` at your terminal window.
 ```bash
-[RxRubyKoans] $ npm test
+[RxRubyKoans] $ rake
 ```
 
 ## Red, Green, Refactor ##
@@ -52,12 +52,13 @@ The very first time you run it you will see the following output:
      Error: expected 42 to equal undefined
 ```
 
-You have come to the first error. You then open up the `about_streams.js` file in your text editor and look at `simple subscription`:
+You have come to the first error. You then open up the `about_streams.rb` file in your text editor and look at `simple subscription`:
 
-```js
-test('simple subscription', function () {
-  Observable.just(42).subscribe(function (x) { equal(x, __); });
-});
+```rb
+def test_simple_subscription
+  stream = RxRuby::Observable.just(42)
+  stream.subscribe {|x| assert_equal(__, x) }
+end
 ```
 
 You then change `__` to `42` and run the tests again. You should now have fixed the error.
@@ -66,18 +67,7 @@ Before moving on, think about what you are learning.
 
 In this specific case, ignore everything except the method name  and the parts inside the method. The goal is for you to see that if you pass a value to the proper assertion method method, it will either ensure it is true and continue on, or fail if in fact the statement is false.
 
-## License ##
+## Note
 
-Copyright (c) Microsoft Open Technologies, Inc.  All rights reserved.
-
-Licensed under the Apache License, Version 2.0 (the "License"); you
-may not use this file except in compliance with the License. You may
-obtain a copy of the License at
-
-http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
-implied. See the License for the specific language governing permissions
-and limitations under the License.
+These koans have been ripped off from [RxJSKoans](https://github.com/Reactive-Extensions/RxJSKoans)
+and translated to Ruby. Ping me [@fteem](https://twitter.com/fteem) for any feedback, questions or complaints.
