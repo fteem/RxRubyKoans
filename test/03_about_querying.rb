@@ -20,6 +20,7 @@ class AboutQuerying < Minitest::Test
   end
 
   def test_querying_over_events
+    # FIXME
     skip "Event wrapping not available, yet."
 
     results = 0

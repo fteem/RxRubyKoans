@@ -7,6 +7,7 @@ end
 
 class AboutEvents < Minitest::Test
   def test_the_main_event
+    # FIXME
     skip "Event wrapping not available, yet."
 
     received = []

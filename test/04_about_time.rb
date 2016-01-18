@@ -29,6 +29,7 @@ class AboutTime < Minitest::Test
   end
 
   def test_a_watched_pot
+    # FIXME
     skip "Timeout not implemented yet."
     received = ''
     delay = 1 # seconds
