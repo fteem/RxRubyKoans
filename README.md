@@ -24,11 +24,11 @@ Any response for Ruby with a version number greater than 2.0 **should be** fine.
 
 ## Installing the RxRuby Koans ##
 
-To install the RxRuby Koans, download via Git and add the depdencies via NPM:
+To install the RxRuby Koans, download via Git and add the dependencies via bundle:
 ```bash
 $ git clone https://github.com/fteem/RxRubyKoans.git
 $ cd RxRubyKoans
-[RxRubyKoans ]$ npm install
+[RxRubyKoans ]$ bundle install
 ```
 
 ## The Path to Enlightenment ##
