@@ -1,4 +1,4 @@
-require 'test_helper'
+require_relative 'test_helper'
 
 class AboutStreams < Minitest::Test
   def test_simple_subscription
