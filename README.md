@@ -11,15 +11,16 @@ Each koan builds up your knowledge of RxRuby and builds upon itself.
 
 Some koans simply need to have the correct answer substituted for an incorrect one. Some, however, require you to supply your own answer. If you see the method __ (a double underscore) listed, it is a hint to you to supply your own code in order to make it work correctly.
 
-## Installing Node.js ##
+## Installing Ruby ##
 
-In order to run the koans you need Node.js installed. If you do not already have Node.js set up, please visit the [Node.js](http://nodejs.org/) site to install Node.js.
+In order to run the koans you need Ruby installed. If you do not already have Ruby set up, please visit the
+[Ruby](https://www.ruby-lang.org/en/) website to install Ruby.
 
 To verify your installation, in your terminal window simply type:
 ```bash
-$ node --version
+$ ruby -v
 ```
-Any response for Node with a version number greater than 0.10.x is fine.
+Any response for Ruby with a version number greater than 2.0 **should be** fine.
 
 ## Installing the RxRuby Koans ##
 
