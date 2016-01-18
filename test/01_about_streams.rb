@@ -1,5 +1,4 @@
-require 'minitest/autorun'
-require 'rx_ruby'
+require 'test_helper'
 
 class AboutStreams < Minitest::Test
   def test_simple_subscription
