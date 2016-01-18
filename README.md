@@ -72,3 +72,6 @@ In this specific case, ignore everything except the method name  and the parts i
 
 These koans have been ripped off from [RxJSKoans](https://github.com/Reactive-Extensions/RxJSKoans)
 and translated to Ruby. Ping me [@fteem](https://twitter.com/fteem) for any feedback, questions or complaints.
+
+Also, there are some skipped tests in the code, due to missing methods in RxRuby.
+If you think this is incorrect (or an error on my side), please open an issue.
