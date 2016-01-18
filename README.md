@@ -38,6 +38,10 @@ You can run the tests by calling `rake` at your terminal window.
 [RxRubyKoans] $ rake
 ```
 
+## Warning
+
+At the moment, all of the test are passing. I am looking for someone with good knowledge of RxRuby to review them. When the review is done, the tests will be fixed to work like a proper Koans test suite.
+
 ## Red, Green, Refactor ##
 
 In test-driven development (TDD) the mantra has always been red: write a failing test and run it, green: make the test pass, and refactor: look at the code and see if you can make it any better.
