@@ -1,7 +1,7 @@
 
 # Learn the Reactive Extensions for Ruby (RxRuby) with RxRuby Koans #
 
-The Koans walk you along the path to enlightenment in order to learn [RxRuby](https://github.com/Reactive-Extensions/RxRuby). The goal is to learn the RxRuby library. We also teach you culture. Testing is not just something we pay lip service to, but something we live. It is essential in your quest to learn and do great things in the library.
+The Koans walk you along the path to enlightenment in order to learn [RxRuby](https://github.com/ReactiveX/RxRuby). The goal is to learn the RxRuby library. We also teach you culture. Testing is not just something we pay lip service to, but something we live. It is essential in your quest to learn and do great things in the library.
 
 ## Structure ##
 
